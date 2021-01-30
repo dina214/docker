@@ -1,22 +1,13 @@
 version: v1.0
-name: Parallel
+name: Initial Pipeline
 agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: "Block #1"
+  - name: 'Block #1'
     task:
       jobs:
-        - name: "Job #1"
+        - name: 'Job #1'
           commands:
             - checkout
-            - ls
-        - name: "Job #2"
-          commands:
-            - checkout
-            - ls
-        - name: "Job #3"
-          commands:
-            - checkout
-            - ls
