@@ -109,3 +109,6 @@ blocks:
         - name: "\U0001F680 Web"
           commands:
             - checkout
+promotions:
+  - name: Promotion 1
+    pipeline_file: pipeline_2.yml
